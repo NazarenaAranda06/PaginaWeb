@@ -4,16 +4,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.logo {
-    height: 80px;
-}
 
 .SinSentido {
     background-color: brown;
 }
 
-.headerInicio {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.736), rgba(0, 0, 0, 0.698)), url(img/fondo\ header.png); 
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.736), rgba(0, 0, 0, 0.698)), url(imagenes/fondo.png); 
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -29,21 +26,9 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.contenedor p {
-    font-size: 20px;
-    line-height: 60px;
-    color: rgb(0, 0, 0);
-}
 
-.headerOtros {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.736), rgba(0, 0, 0, 0.698)), url(img/fondo\ header.png); 
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
-}
+
+
 
 .menu {
     position: absolute;
@@ -69,7 +54,13 @@ body {
 }
 
 footer {
-    background-color: gray;
-    position: relative;
- 
+    background-color: black;
+    height: 50px;
 }
+
+footer p {
+    color: rgb(228, 228, 228);
+}
+
+
+
