@@ -16,7 +16,10 @@ header{
     background-size: cover ;
     min-height: 90vh;
     display: flex;
-    align-items:center
+    align-items:center;
+    width: 100%; 
+    box-sizing: border-box; 
+
   
 }
 
@@ -25,9 +28,6 @@ header{
     line-height: 80px;
     color: rgb(0, 0, 0);
 }
-
-
-
 
 
 .menu {
@@ -53,13 +53,64 @@ body {
     background-image: linear-gradient(black, white)
 }
 
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly; 
+    padding: 10px;
+    
+
+}
+
+.contenedor1 img {
+    border-radius: 100%;
+    width: auto;
+}
+
+
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.contenedor2 img {
+    border-radius: 100%;
+    width: auto;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.contenedor3 img {
+    border-radius: 100%;
+    width: auto;
+}
+
+.item {
+    margin: 0 10px; /* Añade margen a los lados de cada elemento */
+    text-align: center; /* Centra el texto dentro de cada item */
+}
+
+
+
+
+
 footer {
     background-color: black;
-    height: 50px;
+    height: 100%;
 }
 
 footer p {
     color: rgb(228, 228, 228);
+    text-align:center;
 }
 
 
