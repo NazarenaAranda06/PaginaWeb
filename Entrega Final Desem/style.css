@@ -49,57 +49,79 @@ header{
     color: white;
 }
 
+.menu ul li:hover {
+    color: rgb(163, 162, 162);
+}
+
 body {
     background-image: linear-gradient(black, white)
 }
 
-.contenedor1 {
+
+.card-body {
+    background-image: linear-gradient( white, #a4a4a4);
+}
+
+.Contenedor1 {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly; 
-    padding: 10px;
+    width: 95%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+
+}
+
+
+
+.Contenedor2 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 100%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+
+
+}
+
+
+
+.Contenedor3 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+
+
+}
+
+
+.navegacion {
+    position: absolute;
+    top: 50;
+    left: 50;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    color: aliceblue;
+    text-align: center;
+   
     
 
 }
 
-.contenedor1 img {
-    border-radius: 100%;
-    width: auto;
-}
-
-
-
-.contenedor2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-}
-
-.contenedor2 img {
-    border-radius: 100%;
-    width: auto;
-}
-
-.contenedor3 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-}
-
-.contenedor3 img {
-    border-radius: 100%;
-    width: auto;
-}
-
-.item {
-    margin: 0 10px; /* Añade margen a los lados de cada elemento */
-    text-align: center; /* Centra el texto dentro de cada item */
-}
-
-
+summary::after {
+    content:' mas';
+    }
+    
+    details[open] summary::after {
+    content:' menos';
+    }
 
 
 
@@ -112,6 +134,8 @@ footer p {
     color: rgb(228, 228, 228);
     text-align:center;
 }
+
+
 
 
 
